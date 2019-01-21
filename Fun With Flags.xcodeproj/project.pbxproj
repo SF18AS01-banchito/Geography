@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		96FBDEB021F3DAF5006F9378 /* Geography.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Geography.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96FBDEB021F3DAF5006F9378 /* Fun With Flags.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fun With Flags.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96FBDEB321F3DAF5006F9378 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96FBDEB521F3DAF5006F9378 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		96FBDEB821F3DAF5006F9378 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 		96FBDEB121F3DAF5006F9378 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				96FBDEB021F3DAF5006F9378 /* Geography.app */,
+				96FBDEB021F3DAF5006F9378 /* Fun With Flags.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,9 +67,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		96FBDEAF21F3DAF5006F9378 /* Geography */ = {
+		96FBDEAF21F3DAF5006F9378 /* Fun With Flags */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 96FBDEC221F3DAF8006F9378 /* Build configuration list for PBXNativeTarget "Geography" */;
+			buildConfigurationList = 96FBDEC221F3DAF8006F9378 /* Build configuration list for PBXNativeTarget "Fun With Flags" */;
 			buildPhases = (
 				96FBDEAC21F3DAF5006F9378 /* Sources */,
 				96FBDEAD21F3DAF5006F9378 /* Frameworks */,
@@ -79,9 +79,9 @@
 			);
 			dependencies = (
 			);
-			name = Geography;
+			name = "Fun With Flags";
 			productName = Geography;
-			productReference = 96FBDEB021F3DAF5006F9378 /* Geography.app */;
+			productReference = 96FBDEB021F3DAF5006F9378 /* Fun With Flags.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +99,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 96FBDEAB21F3DAF5006F9378 /* Build configuration list for PBXProject "Geography" */;
+			buildConfigurationList = 96FBDEAB21F3DAF5006F9378 /* Build configuration list for PBXProject "Fun With Flags" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,7 +112,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				96FBDEAF21F3DAF5006F9378 /* Geography */,
+				96FBDEAF21F3DAF5006F9378 /* Fun With Flags */,
 			);
 		};
 /* End PBXProject section */
@@ -315,7 +315,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		96FBDEAB21F3DAF5006F9378 /* Build configuration list for PBXProject "Geography" */ = {
+		96FBDEAB21F3DAF5006F9378 /* Build configuration list for PBXProject "Fun With Flags" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				96FBDEC021F3DAF8006F9378 /* Debug */,
@@ -324,7 +324,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		96FBDEC221F3DAF8006F9378 /* Build configuration list for PBXNativeTarget "Geography" */ = {
+		96FBDEC221F3DAF8006F9378 /* Build configuration list for PBXNativeTarget "Fun With Flags" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				96FBDEC321F3DAF8006F9378 /* Debug */,
