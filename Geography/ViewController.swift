@@ -53,27 +53,29 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         print(countryImage.count)
-        label.text = "Hit the flag button to start the game. You have one minute!"
+        label.text = "Hit the flag button to start the game."
     }
     
     @IBAction func getFlag(_ sender: UIButton) {
         score = 0;
-        label.text = "Hit the flag button to start the game. You have one minute! Score: \(score)"
+        label.text = "You have one minute! Score: \(score)"
         perform(#selector(timer), with: self, afterDelay: 60);
         view.backgroundColor = .white;
         imageView.isHidden = false;
         textField.isHidden = false;
         
-        if let flag:Int = Int (arc4random_uniform(27)){
-            imageView.image = UIImage(named: countryImage[flag]);
+        if let flag: String = countryImage.randomElement(){
+            imageView.image = UIImage(named: flag);
             print(flag)
         }
     }
     
     @IBAction func uInput(_ sender: UITextField) {
         sender.resignFirstResponder()
-        if let flag:Int = Int (arc4random_uniform(27)){
-            imageView.image = UIImage(named: countryImage[flag]);
+        
+        if let flag: String = countryImage.randomElement(){
+            imageView.image = UIImage(named: flag);
+            print(flag)
         }
         if countryImage.contains(sender.text!){ // Wrong logic.
             score += 1;
@@ -82,7 +84,11 @@ class ViewController: UIViewController {
             score += 0;
             label.text = "Oups! Wrong Answer... Try this one"
         }
+        textField.text = nil;
+        textField.placeholder = "Enter the flag's Country";
     }
+    
+    
     
     @objc func timer(){
         UIView.animate(
